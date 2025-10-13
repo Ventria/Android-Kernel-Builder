@@ -1,6 +1,6 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
+      "name": "Nova",
       "repo": "https://github.com/Ventria/Nova",
       "branch": "fifteen-fixed",
       "device": "begonia"
