@@ -5,7 +5,7 @@
       "branch": "fifteen-fixed",
       "device": "begonia"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
@@ -14,7 +14,7 @@
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "18",
+        "branch": "11",
         "name": "clang"
       }
     ],
