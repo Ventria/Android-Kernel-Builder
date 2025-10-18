@@ -2,10 +2,10 @@
     "kernelSource": {
       "name": "Nova",
       "repo": "https://github.com/Ventria/Nova",
-      "branch": "fifteen-fixed",
+      "branch": "fifteen-fixed-ksu",
       "device": "begonia"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
