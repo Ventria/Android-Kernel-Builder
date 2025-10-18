@@ -1,4 +1,30 @@
-[  {
+[
+  {
+    "kernelSource": {
+      "name": "Nova",
+      "repo": "https://github.com/Ventria/Nova",
+      "branch": "fifteen-fixed-ksu",
+      "device": "begonia"
+    },
+    "withKernelSU": false,
+    "toolchains": [
+      {
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "11",
+        "name": "clang"
+      }
+    ],
+    "params": {
+      "ARCH": "arm64",
+      "CROSS_COMPILE": "aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-",
+      "AR": "",
+      "CC": "clang"
+    }
+  },
+  {
     "kernelSource": {
       "name": "Nova",
       "repo": "https://github.com/Ventria/Nova",
