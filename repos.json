@@ -3,10 +3,10 @@
     "kernelSource": {
       "name": "Stock-KSUN",
       "repo": "https://github.com/Ventria/Xiaomi_Kernel_OpenSource",
-      "branch": "fifteen-fixed-ksu",
-      "device": "begonia-r-oss"
+      "branch": "begonia-r-oss",
+      "device": "begonia"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
