@@ -42,7 +42,7 @@ jobs:
       kernelBranch: ${{ matrix.repos.kernelSource.branch }}
       kernelDevice: ${{ matrix.repos.kernelSource.device }}
 
-      DEFCONFIG_NAME: ${{ matrix.repos.kernelSource.device }}_defconfig
+      DEFCONFIG_NAME: begonia_user_defconfig
 
       withKernelSU: ${{ matrix.repos.withKernelSU }}
     steps:
@@ -145,7 +145,7 @@ jobs:
           args: ${{ steps.generate-args.outputs.args }}
         run: |
           echo "PATH Variable: $PATH"
-          make ${{ env.args }} ${{ begonia_user_defconfig }}
+          make ${{ env.args }} ${{ env.DEFCONFIG_NAME }}
 
       - name: "🎶 Build kernel"
         working-directory: ./${{ env.kernelDir }}/${{ env.kernelName }}
