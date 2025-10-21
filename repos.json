@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "DogDayAndroid",
-      "repo": "https://github.com/Ventria/Xiaomi_Kernel_OpenSource",
-      "branch": "begonia-r-oss",
+      "name": "Astera",
+      "repo": "https://github.com/Ventria/android_kernel_xiaomi_mt6785",
+      "branch": "fifteen",
       "device": "begonia"
     },
     "withKernelSU": true,
